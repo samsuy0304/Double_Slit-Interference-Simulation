@@ -18,3 +18,6 @@ This code requires the following Python packages:
 
 * numpy
 * matplotlib
+
+## Required Feedback
+I want to make sure that this seems like a valid simulation for the project. What should my next steps be?
