@@ -1,17 +1,16 @@
-# Double-Slit Interference Simulation
-This code simulates the interference pattern that arises when light passes through two slits and interferes with itself. The simulation uses a wave function to model the light, and calculates the interference pattern on a screen placed a certain distance away from the slits.
+# Interactive Double Slit Experiment with PyQt
+This code simulates the interference pattern formation on a imaging sensor. The simulation is intended as a way to explore the various factors that affect the capture of a such a pattern. 
 
 ## Usage
-To run the simulation, simply run the main.py script. The simulation parameters can be modified at the start of the code. The following parameters can be modified:
+To run the simulation, simply run the app.py script. The simulation parameters can be modified in the side bar. The following parameters can be modified:
 
-* wavelength: the wavelength of the light in nanometers.
-* slit_width: the width of each slit in micrometers.
-* slit_distance: the distance between the centers of the two slits in millimeters.
-* screen_distance: the distance between the slits and the screen in centimeters.
-* screen_width: the width of the screen in centimeters.
-* screen_resolution: the number of pixels per unit length on the screen.
+* Wavelength: the wavelength of the light in nanometers.
+* Slit Width: the width of each slit in micrometers.
+* Slit Distance: the distance between the centers of the two slits in millimeters.
+* Screen Distance: the distance between the slits and the screen in centimeters.
+* Screen Width: the width of the screen in centimeters.
+* Screen Resolution: the number of pixels per unit length on the screen.
 
-The simulation generates an image of the interference pattern on the screen, which is saved in the output folder.
 
 ## Dependencies
 This code requires the following Python packages:
@@ -19,5 +18,5 @@ This code requires the following Python packages:
 * numpy
 * matplotlib
 
-## Required Feedback
-I want to make sure that this seems like a valid simulation for the project. What should my next steps be?
+## Contribution
+If you would like to improve the model, feel free to fork the repository. I have been intending to work on developing the image capture system to be more realistic.
